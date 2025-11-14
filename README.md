@@ -21,3 +21,9 @@ a mathematical equation. A small mistake in the equation could produce good resu
 mathematical questions it could then produce wildly innacurate results. I always approach designing software cautiously, as any developer would know that overconfidence could lead ot missing a simple
 mistake that will cause a lot of hassle in the future once the program has multiple relationships within the program. Debugging is always easier when it is done with a singular function instead of 
 larger relationships within the program.
+
+Edit on 11/14/2025
+
+Added the file CSCapstone Appointment Application. This file contains the original code from the project, but now with a new file 'AppointmentApp.java' that contains a Main() program. Now instead of
+separate code files that were only created for JUNIT testing, I have a working program that utilizes the old code files. The program is basic for now, it does not create a database, but it correctly
+performs CRUD operations on the existing classes that I made.
