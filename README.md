@@ -27,3 +27,13 @@ Edit on 11/14/2025
 Added the file CSCapstone Appointment Application. This file contains the original code from the project, but now with a new file 'AppointmentApp.java' that contains a Main() program. Now instead of
 separate code files that were only created for JUNIT testing, I have a working program that utilizes the old code files. The program is basic for now, it does not create a database, but it correctly
 performs CRUD operations on the existing classes that I made.
+
+
+Edit on 11/30/2025
+
+Added the file CSCapstone. This is the final enhancement made to the appointment application, wherein it connects to an SQL database. If you would like to use the application, you first need to be
+running an SQL server. I used XAMPP for this project and left the address, username, and password as default for ease of access. If you want to use this program and set up a server with a unique
+username and password you must make edits to the 'DatabaseUtil' file. There is also a 'SQLTest' file left in that prints "connected" that you can use to test if the program is connecting to the
+server before or after you have made edits to it. Included is also a text file containing the code you need to write into SQL to match how my application is set up, you can just copy and paste
+it in an SQL console.
+To run the program connected to a server you run the file "AppointmentAppSQL", to run it locally (data does not persist) run "AppointmentApp."
